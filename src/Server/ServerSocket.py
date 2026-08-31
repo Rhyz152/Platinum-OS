@@ -1,14 +1,16 @@
 #// Libs
 import socket
 import colorama
+from termcolor import colored
 
 # Server vars
 Host = '127.0.0.1'
 Port = 5050
 BufferSize = 4096
 
-def StartServer(host=Host, port=Port):
+def StartServer(host=Host, port=Port) -> None:
     colorama.init()
+    print(colored(text='[Server]: Started', color='green'))
 
     #// Server setup
     Server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
