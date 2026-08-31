@@ -1,0 +1,23 @@
+[33mc2c6baf[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mlogin[m[33m, [m[1;31morigin/login[m[33m)[m HEAD@{0}: checkout: moving from login to login
+[33mc2c6baf[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mlogin[m[33m, [m[1;31morigin/login[m[33m)[m HEAD@{1}: checkout: moving from main to login
+[33mb08ec83[m[33m ([m[1;32mmain[m[33m)[m HEAD@{2}: checkout: moving from login to main
+[33mc2c6baf[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mlogin[m[33m, [m[1;31morigin/login[m[33m)[m HEAD@{3}: reset: moving to HEAD
+[33mc2c6baf[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mlogin[m[33m, [m[1;31morigin/login[m[33m)[m HEAD@{4}: commit: merge login
+[33m9f6d275[m HEAD@{5}: commit: Make login parsing
+[33mb08ec83[m[33m ([m[1;32mmain[m[33m)[m HEAD@{6}: checkout: moving from main to login
+[33mb08ec83[m[33m ([m[1;32mmain[m[33m)[m HEAD@{7}: commit: Socket setup, .venv reinstall
+[33m8134c1e[m HEAD@{8}: commit: Sockets
+[33m7c77507[m HEAD@{9}: commit: Delete
+[33m556c4ad[m HEAD@{10}: rebase (finish): returning to refs/heads/main
+[33m556c4ad[m HEAD@{11}: rebase (pick): Server cpp
+[33m35c163e[m HEAD@{12}: rebase (pick): tesr
+[33md6ab7b0[m HEAD@{13}: rebase (pick): Test
+[33m9ae21cf[m HEAD@{14}: rebase (pick): Init
+[33mbc2a491[m HEAD@{15}: rebase (pick): Initalize project
+[33me3a0478[m HEAD@{16}: rebase (start): checkout origin/main
+[33mdebdd4e[m HEAD@{17}: commit: Server cpp
+[33m8381eb0[m HEAD@{18}: commit: tesr
+[33mf716e15[m HEAD@{19}: checkout: moving from main to main
+[33mf716e15[m HEAD@{20}: commit: Test
+[33m915c75c[m HEAD@{21}: commit: Init
+[33m1ba8e97[m HEAD@{22}: commit (initial): Initalize project
