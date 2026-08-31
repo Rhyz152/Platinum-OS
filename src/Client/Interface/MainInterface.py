@@ -1,12 +1,16 @@
 #// Libs
+import os
 import sys
 from PyQt5.QtWidgets import (QMainWindow, QApplication, QLabel, QLineEdit, QPushButton)
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+from Client.ClientSocket import LoginAttempt as SendLoginAttempt
 
 #// MainWindow
 class MWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        
+
         self.InitUi()
 
     def InitUi(self):
@@ -54,8 +58,13 @@ class MWindow(QMainWindow):
         """)
 
     def LoginAttempt(self):
-        print('Attempt to login')
+        Username = self.NameInput.text()
+        Password = self.PasswordInput.text()
+        print(f'Attempt to login with: {Username}')
 
+        Response = SendLoginAttempt(Username, Password)
+        print(f'Server replied: {Response.decode(encoding="utf-8", errors="replace")}')
+        
 if __name__ == '__main__':
     App = QApplication(sys.argv)
     MainWindow = MWindow()
